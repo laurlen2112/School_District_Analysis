@@ -14,3 +14,7 @@ The initial purpose of this analysis was an evaluation of student test scores an
     *	estimated 0.14% drop in students passing reading
 *	Drop in the overall passing percentage is estimated at 0.32%
 
+## Impact to School Summary:
+* Replacing the 9th grade THS students [math](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/math%20score%20comparison.png)  and [reading](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/reading%20score%20comparison.png) scores with NaN presents no impact to 9th grade scores in other because [average scores](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/math_reading_by%20grade_code.png) are calculated on a per school basis, per grade basis
+* Replacing THS 9th grade student scores with NaN did cause a drop in its metrics; however, it did not effect THS in relation to other schools as it maintained its 2nd place status among the [top five schools](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/top_5_comparison.png)
+* No changes to the [bottom five schools](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/bottom_5_comparison.png) are found
