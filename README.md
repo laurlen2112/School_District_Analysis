@@ -18,3 +18,13 @@ The initial purpose of this analysis was an evaluation of student test scores an
 * Replacing the 9th grade THS students [math](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/math%20score%20comparison.png)  and [reading](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/reading%20score%20comparison.png) scores with NaN presents no impact to 9th grade scores in other schools because [average scores](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/math_reading_by%20grade_code.png) are calculated on a per school basis, per grade basis
 * Replacing THS 9th grade student scores with NaN did cause a drop in [its metrics](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/Compare_THS_metrics.png); however, it did not effect THS in relation to other schools as it maintained its 2nd place status among the [top five schools](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/top_5_comparison.png)
 * No changes to the [bottom five schools](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/bottom_5_comparison.png) are found
+
+## Impact to Other Metrics:
+* As illustrated by the images below, scores calculated by school spending, school size, and school type were unaffected by converting the THS 9th grade scores to NaN
+   * [Scores by school spending](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/scores_by_spending.png) 
+   * [Scores by school size](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/scores_by_size.png)
+   * [ Scores by school type](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/scores_by%20_type.png)      
+* This is likely due to the fact that [those metrics](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/spending_size_type_code.png) were calculated from the “per_school_summary_df” data frame.  The percent passing reading, the percent passing math, and the overall passing percent were the [only metrics that were changed](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/THS%20_DF_COde.png).
+
+# *Summary*
+In summary, the district analysis changed by reducing the overall student count, reducing THS metrics regarding the average values of students passing math and/or reading, reducing the percentage of students passing math and/or reading, and reducing the overall percentage.  The  change to THS scores did not effect THS’ standing in the top 5 schools nor did it effect the other metrics captured in the original analysis.
