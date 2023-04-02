@@ -32,7 +32,7 @@ The purpose of this analysis was to assist the school and district in making str
    * [Scores by school size](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/scores_by_size.png)
    * [ Scores by school type](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/scores_by%20_type.png)      
 
-<img scr ="https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/results%203a.png"/>
+<img src ="https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/results%203a.png"/>
 
 * This is likely due to the fact that those metrics were [calculated from the “per_school_summary_df” data frame](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/spending_size_type_code.png).  The percent passing reading, the percent passing math, and the overall passing percent were the [only metrics that were changed](https://github.com/laurlen2112/School_District_Analysis/blob/main/resources/THS%20_DF_COde.png).
 
